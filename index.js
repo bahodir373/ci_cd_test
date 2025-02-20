@@ -5,7 +5,7 @@ const port = 3000;
 app.use(require('cors')())
 
 app.get("/", (req, res) => {
-  res.send("Hello, World! Testing github action");
+  res.send("Hello, World! Testing github action!");
 });
 
 app.listen(port, () => {
